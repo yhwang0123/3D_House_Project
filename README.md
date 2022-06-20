@@ -56,16 +56,18 @@ Below diagram shows the process of my coding. It starts from input of an address
 ## Example of 3D House
 
 Sint-Pietersvliet 7, 2000 Antwerpen
-* 3d in plotly
+* 3d in plotly  
+
 ![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/3d%20images/Sint-Pietersvliet%207.png?raw=true)
-* 3d in Mayavia
+
+* 3d in Mayavia  
 ![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/3d%20images/Sint-Pietersvliet%207%202000%20Antwerpen.png?raw=true)
 
 
-Kazernweg 35, 2950 Kapellen
-Sint-Pietersvliet 7, 2000 Antwerpen
-* 3d in plotly
+Kazernweg 35, 2950 Kapellen  
+
+* 3d in plotly  
 ![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/3d%20images/Kazernweg%2035.png?raw=true)
-* 3d in Mayavia
+* 3d in Mayavia  
 ![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/3d%20images/Kazernweg%2035%202950%20Kapellen.png?raw=true)
 
