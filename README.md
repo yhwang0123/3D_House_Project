@@ -10,22 +10,22 @@ As Flanders of Belgium is divided into 43 zones, and the data of 43 zone is huge
 ## Installation
 
 The following libraries are used for this project:rioxarray
-1. requests
-2. json
-3. requests
-4. matplotlib
-5. os
-6.  pandas
-7.  plotly
-8.  os
-9. shapely
-10.  natsort
-11. fiona
-12. rasterio
-13.  time
-14. webbrowser
-15. mayavi
-16. Image
+* requests
+* json
+* requests
+* matplotlib
+* os
+*  pandas
+*  plotly
+*  os
+* shapely
+*  natsort
+* fiona
+* rasterio
+*  time
+* webbrowser
+* mayavi
+* Image
 
 ## Steps taken for the project
 
