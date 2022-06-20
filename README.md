@@ -10,22 +10,22 @@ As Flanders of Belgium is divided into 43 zones, and the data of 43 zone is huge
 ## Installation
 
 The following libraries are used for this project:rioxarray
-⋅⋅* requests
-⋅⋅* json
-⋅⋅*requests
-⋅⋅* matplotlib
-⋅⋅* os
-⋅⋅* pandas
-⋅⋅* plotly
-⋅⋅* os
-⋅⋅* shapely
-⋅⋅* natsort
-⋅⋅* fiona
-⋅⋅* rasterio
-⋅⋅* time
-⋅⋅* webbrowser
-⋅⋅* mayavi
-⋅⋅* Image
+1. requests
+2. json
+3. requests
+4. matplotlib
+5. os
+6.  pandas
+7.  plotly
+8.  os
+9. shapely
+10.  natsort
+11. fiona
+12. rasterio
+13.  time
+14. webbrowser
+15. mayavi
+16. Image
 
 ## Steps taken for the project
 
@@ -35,12 +35,12 @@ The following libraries are used for this project:rioxarray
 1. understand the DTM and DSM file
 2. get to know the realtionship of CHM(The Canopy Height Model) with DTM and DSM
 3. explore the libraries which can be used to deal with the GEO data
-    ⋅⋅* glob - to search all file with the same extension
-    ⋅⋅* rasterio - read and write GEOTIFF format file
-    ⋅⋅* rioarray - rasterio xarray extension (xarray - working with labelled multi-dimensional arrays)
-    ⋅⋅* imageio - read and write image data
-    ⋅⋅* plotly - plot 3D objects
-    ⋅⋅* Mayavi - provide easy and interactive visualization of 3D data
+    *  glob - to search all file with the same extension
+    * rasterio - read and write GEOTIFF format file
+    * rioarray - rasterio xarray extension (xarray - working with labelled multi-dimensional arrays)
+    * imageio - read and write image data
+    * plotly - plot 3D objects
+    * Mayavi - provide easy and interactive visualization of 3D data
 
 
 ### Data collecting
@@ -56,7 +56,16 @@ Below diagram shows the process of my coding. It starts from input of an address
 ## Example of 3D House
 
 Sint-Pietersvliet 7, 2000 Antwerpen
+* 3d in plotly
+![alt text]()
+* 3d in Mayavia
+![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/3d%20images/Sint-Pietersvliet%207%202000%20Antwerpen.png?raw=true)
 
-Sint-Paulusstraat 22, 2000 Antwerpen
 
 Kazernweg 35, 2950 Kapellen
+Sint-Pietersvliet 7, 2000 Antwerpen
+* 3d in plotly
+![alt text]()
+* 3d in Mayavia
+![alt text]()
+
