@@ -1,6 +1,5 @@
 # 3D House Project
 
-
 plot a house in 3D with only a given address in Flanders
 
 ## Description
@@ -15,14 +14,13 @@ The following libraries are used for this project:rioxarray
 * requests
 * matplotlib
 * os
-*  pandas
-*  plotly
-*  os
+* pandas
+* plotly
+* os
 * shapely
-*  natsort
-* fiona
+* natsort
 * rasterio
-*  time
+* time
 * webbrowser
 * mayavi
 * Image
@@ -32,13 +30,11 @@ The following libraries are used for this project:rioxarray
 
 ### Research
 
-1. understand the DTM and DSM file
+1. understand the geo data in DTM and DSM file
 2. get to know the realtionship of CHM(The Canopy Height Model) with DTM and DSM
 3. explore the libraries which can be used to deal with the GEO data
-*  glob - to search all file with the same extension
 * rasterio - read and write GEOTIFF format file
-* rioarray - rasterio xarray extension (xarray - working with labelled multi-dimensional arrays)
-* imageio - read and write image data
+* rioarray(rasterio xarray extension) - working with labelled multi-dimensional arrays)
 * plotly - plot 3D objects
 * Mayavi - provide easy and interactive visualization of 3D data
 
@@ -56,20 +52,22 @@ Below diagram shows the process of my coding. It starts from input of an address
 ## Example of 3D House
 
 ### Sint-Pietersvliet 7, 2000 Antwerpen
-* 3d in plotly  
+#### 3d in plotly  
 
 ![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/3d%20images/Sint-Pietersvliet%207.png?raw=true)
 
-* 3d in Mayavia  
+##### 3d in Mayavia  
 ![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/3d%20images/Sint-Pietersvliet%207%202000%20Antwerpen.png?raw=true)
 
 
 ### Kazernweg 35, 2950 Kapellen  
 
-* 3d in plotly  
+#### 3d in plotly  
 ![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/3d%20images/Kazernweg%2035.png?raw=true)
-* 3d in Mayavia  
+#### 3d in Mayavia  
 ![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/3d%20images/Kazernweg%2035%202950%20Kapellen.png?raw=true)
 
-## Things to be improved
-* overcome the ovelapping problem
+## Future development
+* figure out the ovelapping of nearby zones, as some building may be located in intersected zones 
+* add features like the living area of the house in m², how many floors, if there is a pool, etc.
+* try some other 3D plotting libraries to get better visualization
