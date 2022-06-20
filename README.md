@@ -35,12 +35,12 @@ The following libraries are used for this project:rioxarray
 1. understand the DTM and DSM file
 2. get to know the realtionship of CHM(The Canopy Height Model) with DTM and DSM
 3. explore the libraries which can be used to deal with the GEO data
-    *  glob - to search all file with the same extension
-    * rasterio - read and write GEOTIFF format file
-    * rioarray - rasterio xarray extension (xarray - working with labelled multi-dimensional arrays)
-    * imageio - read and write image data
-    * plotly - plot 3D objects
-    * Mayavi - provide easy and interactive visualization of 3D data
+*  glob - to search all file with the same extension
+* rasterio - read and write GEOTIFF format file
+* rioarray - rasterio xarray extension (xarray - working with labelled multi-dimensional arrays)
+* imageio - read and write image data
+* plotly - plot 3D objects
+* Mayavi - provide easy and interactive visualization of 3D data
 
 
 ### Data collecting
@@ -50,7 +50,7 @@ The following libraries are used for this project:rioxarray
 
 
 ### Data Processing
-Below diagram shows the process of my coding. It starts from input of an address, and output is the 3d plot of the house.
+Below diagram shows the process of my coding. It starts from input of an address, and output is the 3d plot of the house.   
 ![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/workflow%20of%20coding.002.jpeg?raw=true)
 
 ## Example of 3D House
