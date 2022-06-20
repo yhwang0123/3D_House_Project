@@ -1,14 +1,14 @@
 # 3D House Project
 
-======================================================
+
 plot a house in 3D with only a given address in Flanders
 
 ## Description
-======================================================
+
 As Flanders of Belgium is divided into 43 zones, and the data of 43 zone is huge. I choose Province Antwerp as my target zones, with 12 zones in all. For any address in Province Antwerp, I can show the house in 3D model.
 
 ## Installation
-======================================================
+
 The following libraries are used for this project:rioxarray
 ⋅⋅* requests
 ⋅⋅* json
@@ -28,7 +28,7 @@ The following libraries are used for this project:rioxarray
 ⋅⋅* Image
 
 ## Steps taken for the project
-======================================================
+
 
 ### Research
 
@@ -51,10 +51,10 @@ The following libraries are used for this project:rioxarray
 
 ### Data Processing
 Below diagram shows the process of my coding. It starts from input of an address, and output is the 3d plot of the house.
-
+![alt text](https://github.com/yhwang0123/3D_House_Project/blob/main/asset/workflow%20of%20coding.002.jpeg?raw=true)
 
 ## Example of 3D House
-======================================================
+
 Sint-Pietersvliet 7, 2000 Antwerpen
 
 Sint-Paulusstraat 22, 2000 Antwerpen
